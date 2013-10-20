@@ -1,0 +1,27 @@
+{
+  "name": "define-class",
+  "version": "0.0.1",
+  "description": "A Simple JavaScript Inheritance Module",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luizbills/define-class.git"
+  },
+  "keywords": [
+    "class",
+    "inherits",
+    "inheritance",
+    "extend"
+  ],
+  "author": "Luiz P. \"Bills\"",
+  "license": "PUBLIC DOMAIN (UNLICENSED)",
+  "bugs": {
+    "url": "https://github.com/luizbills/define-class/issues"
+  }
+}
