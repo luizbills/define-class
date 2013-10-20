@@ -1,7 +1,9 @@
 {
   "name": "define-class",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Simple JavaScript Inheritance Module",
+  "author": "Luiz P. \"Bills\"",
+
   "main": "src/index.js",
   "directories": {
     "test": "test"
@@ -19,7 +21,6 @@
     "inheritance",
     "extend"
   ],
-  "author": "Luiz P. \"Bills\"",
   "license": "PUBLIC DOMAIN (UNLICENSED)",
   "bugs": {
     "url": "https://github.com/luizbills/define-class/issues"
