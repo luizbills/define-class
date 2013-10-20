@@ -11,7 +11,7 @@ var DefineClass = require('define-class');
 
 // Person Class
 var Person = DefineClass({
-  put all static method/props here
+  //put all static method/props here
 
   // constructor
   init: function(name) {
@@ -19,7 +19,7 @@ var Person = DefineClass({
   },
 
   dance: function() {
-    return "I'm dancing";
+    return this.name + " says: I'm dancing";
   }
 }, {
   // put all static method/props here
@@ -37,7 +37,7 @@ console.log( person.dance() );
 var DefineClass = require('define-class');
 
 // Ninja Class
-var Person = DefineClass(Person /*parent class*/, {
+var Ninja = DefineClass(Person /*parent class*/, {
   //put all static method/props here
 
   // constructor
