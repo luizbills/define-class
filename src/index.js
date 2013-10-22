@@ -21,7 +21,7 @@ DefineClass = function(parent, instanceProps, staticProps) {
     // Instantiate a base class (but only create the instance,
     // don't run the init constructor)
     initializing = true;
-    var childPrototype = new parent();
+    childPrototype = new parent();
     initializing = false;
   } else {
     childPrototype = {};
@@ -51,9 +51,9 @@ DefineClass = function(parent, instanceProps, staticProps) {
              
           return ret;
         };
-      })(name, instanceProps[name])
+      })(name, instanceProps[name]);
     } else {
-      childPrototype[name] = instanceProps[name]
+      childPrototype[name] = instanceProps[name];
     }
   }
 
