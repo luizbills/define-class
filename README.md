@@ -29,7 +29,7 @@ var Person = DefineClass({
 });
 
 var person = new Person('Phil');
-console.log( person.dance() );
+console.log(person.dance());
 ```
 
 ####Extends a Class
