@@ -51,7 +51,7 @@ var Ninja = DefineClass(Person /*parent class*/, {
   }
 }, {
   // put all static method/props here
-  NinjaStaticMethod: function() {
+  ninjaStaticMethod: function() {
     return 'called a static method';
   }
 });
